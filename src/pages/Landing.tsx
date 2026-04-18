@@ -56,12 +56,12 @@ export default function Landing() {
               >
                 Start Generating <ArrowRight className="w-5 h-5" />
               </Link>
-              <a 
-                href="#features" 
+              <button 
+                onClick={() => document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' })}
                 className="w-full sm:w-auto px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white font-medium rounded-xl transition-colors"
               >
                 View Features
-              </a>
+              </button>
             </div>
           </div>
 
