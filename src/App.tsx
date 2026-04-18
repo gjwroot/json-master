@@ -1,10 +1,10 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Landing from './pages/Landing';
 import Workspace from './pages/Workspace';
 
 function App() {
   return (
-    <Router basename="/json-master">
+    <Router>
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/app" element={<Workspace />} />
