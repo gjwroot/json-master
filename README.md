@@ -10,7 +10,7 @@ English | [简体中文](./README.zh-CN.md)
 
 ## 🎯 Pain Points & Core Value
 
-As a frontend or full-stack developer, when integrating third-party APIs or writing Swagger response structures, manually translating a massive JSON payload into data models (like Interfaces or Structs) in business code is often required. This is not only tedious and time-consuming but also prone to errors, especially with nested objects and array slices.
+As a backend or full-stack developer, when integrating third-party APIs or writing Swagger response structures, manually translating a massive JSON payload into data models (like Go Structs, Python BaseModels, or TS Interfaces) in business code is often required. This is not only tedious and time-consuming but also prone to errors, especially with nested objects and array slices.
 
 **Advantages of JSON Master:**
 1. **Instant Inference**: Paste JSON on the left, and instantly get strongly-typed code for three platforms (TS / Go / Python) on the right, ready to be copied.
