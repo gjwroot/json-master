@@ -4,7 +4,7 @@ import Workspace from './pages/Workspace';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/json-master">
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/app" element={<Workspace />} />
